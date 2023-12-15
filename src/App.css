@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.input-box{
+  margin: 15px 0px;
+}
+.input-box[type=email]{
+  outline: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+.input-box[type=text]{
+  outline: none;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-box[type=password]{
+  outline: none;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-box[type=search]{
+  outline: none;
+  border: 2px solid rgba(0,0,0, 0.18);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.message{
+  margin-top: 580px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message[type=text]{
+  outline: none;
+  border: 2px solid rgba(0,0,0, 0.20);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.send{
+  margin-top: 610px;
 }
